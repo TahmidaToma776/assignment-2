@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* universal */
+.display-flex{
+    display: flex;
+}
+
+/* navbar design */
+.navstyle{
+    
+    justify-content: space-between;
+    
+}
+.navbar{
+    /* gap: 186px; */
+    width: 1158.61px;
+    align-items: center;
+    margin-left: 145px;
+    border: 3px solid green;
+    justify-content: space-between;
+}
+
+.nav-link{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    
+    gap: 20px;
+    
+}
+
+
+.btn-primary{
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    width: 197px;
+    padding: 10px 60px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    margin-right: 2px;
+    
+}
+.btn-2nd{
+    color: white;
+    background-color: rgb(19, 19, 19);
+    border-radius: 10px;
+    width: 197px;
+    padding: 10px 60px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    margin-right: 2px;
+    
+}
+
+#hm{
+    color: darkorange;
+}
+#ab{
+    color: skyblue;
+}
+#fc{
+    color: aqua;
+}
+#ad{
+    color: blueviolet;
+}
+/* header */
+.empower{
+    width: 1158.61px;
+    height: 575px;
+    border: 2px solid green;
+    margin-left: 145px;
+    justify-content: space-between;
+}
+.emp{
+    color: orange;
+}
+.vsn{
+    color: deepskyblue;
+}
+.emp-std{
+    margin-top: 122px;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
