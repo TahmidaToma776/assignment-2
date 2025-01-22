@@ -18,29 +18,26 @@
 
 /* navbar design */
 .navstyle{
-    
+    margin-left: 145px;
     justify-content: space-between;
-    
+    width: 1158.61px;   
 }
 .navbar{
-    /* gap: 186px; */
     width: 1158.61px;
-    align-items: center;
-    margin-left: 145px;
-    border: 3px solid green;
+    justify-content: space-between;
+    padding-right: 35px;
+}
+.nav-size{
     justify-content: space-between;
 }
-
+ul li{
+    list-style: none;
+}
 .nav-link{
     text-decoration: none;
-    list-style: none;
     justify-content: space-between;
-    
     gap: 20px;
-    
 }
-
-
 .btn-primary{
     color: white;
     background-color: orange;
@@ -50,7 +47,7 @@
     height: 50px;
     border: none;
     font-size: 15px;
-    margin-right: 2px;
+    
     
 }
 .btn-2nd{
@@ -78,11 +75,20 @@
 #ad{
     color: blueviolet;
 }
+.school{
+    padding-right: ;
+}
+
 /* header */
 .empower{
     width: 1158.61px;
+    height: 550px;
+    margin-left: 145px;
+    justify-content: space-between;
+}
+.header{
+    width: 1158.61px;
     height: 575px;
-    border: 2px solid green;
     margin-left: 145px;
     justify-content: space-between;
 }
@@ -97,4 +103,299 @@
     font-size: 56px;
     font-weight: bold;
     margin-bottom: 24px;
+}
+
+/* curriculum */
+.curriculum{
+    width: 1158.61px;
+    height: 575px;
+    margin-left: 145px;
+    justify-content: space-between;
+}
+.blocks{
+    
+        gap: 28.29px;
+        justify-content: center;
+        
+    }
+    .std-clm{
+    
+        width: 1158.61px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 40px;
+        align-items: center;
+        margin-left: 145px;
+    }
+    
+
+.standard-curriculum-container{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 24px;
+    gap: 20px;
+}
+.small-img{
+    padding-left: 115.5px;
+    padding-bottom: 32px;
+    padding-top: 52.82px;
+    
+}
+p{
+    font-size: 15px;
+    font-weight: 100;
+    margin: 24px auto;
+}
+h4{
+    padding-left: 78.57px;
+    font-size: 24.52px;
+    font-weight: bold;
+}
+.body-p{
+    padding-left: 40.88px;
+    padding-top: 33.48px;
+    color: #808080;
+    flex-wrap: wrap;
+}
+h6{
+    font-size: 15.09px;
+    font-weight: bold;
+    margin-left: 132.46px;
+}
+#orange{
+    color: #FEA301;
+}
+#purple{
+    color: #8700FF;
+}
+#white-color{
+    color: #FFFFFF;
+}
+
+#blue{
+    color: #01ACFD;
+}
+.grad-blu{
+    background-image: linear-gradient(to bottom, #DEF5FF , white);
+}
+.grad-orng{
+    background-image: linear-gradient(to bottom, #FFF4DC, white);
+}
+.grad-purple{
+    background-image: linear-gradient(to bottom, #EEE1FF, white);
+}
+/* arrow button design */
+.left-right-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #FEA301;
+    color: #FFFFFF;
+    font-weight: 300px;
+    font-size: 20px;
+    border: none;
+}
+.arr-btn{
+    margin-left: 655px;
+    gap: 10px;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+/* background */
+.back-img{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:1158.61px; 
+}
+
+/* Grid design */
+.main-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 90px;
+    width: 1158.61px;
+    margin-bottom: 80px;
+}
+  
+.large-card {
+    flex: 2;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+  .small-cards-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+.small-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.date {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+  
+h2{
+    font-size: 18px;
+    margin: 0;
+}
+  
+p{
+    font-size: 16px;
+    color: #666666;
+}
+
+  
+
+.view-all-btn{
+    margin: 80px 621.5px;
+    margin-bottom: 60px;
+}
+.st{
+    width: 1158.61px;
+    margin-left: 145px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    
+}
+.btn-3{
+    color: white;
+    background-color: #01ACFD;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+.btn-3-1{
+    color: white;
+    background-color: olivedrab;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    
+}
+#summer{
+    color: white;
+    background-color: #8700FF;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    border: none;
+}
+
+/* footer */
+
+.footer-bg{
+    border: 3px solid #01ACFD;
+    background-color: #01ACFD;
+    width: 1439px;
+    height: 519px;
+}
+.footer-part{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 228px;
+    justify-content: space-between;
+
+}
+.ul-footer{
+    margin-bottom: 20px;
+}
+.footer-img-title{
+    display: flex;
+}
+.footer-img{
+    width: 83px;
+    height: 82px;
+}
+#footer-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media screen and (max-width: 592px){
+    .display-flex{
+        display: grid;
+    }
+    .hide{
+        display: none;
+    }
+    .grid-container{
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+    .empower{
+        width: 450px;
+        height: 1700px;
+        margin-left: 145px;
+        justify-content: space-between;
+    }
+    .header{
+        width: 450px;
+        height: 1200px;
+        margin-left: 145px;
+        justify-content: space-between;
+    }
+    .navbar{
+        width: 450px;
+        height: 70px;
+    }
+    .navstyle{
+        justify-content: space-between;
+        width: 450px;
+        height:70px;   
+    }
+    .std-clm{
+        width: 450px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 40px;
+        align-items: center;
+    }
+    .st{
+        margin-left: 145px;
+        width: 450px;
+    }
+    .view-all-btn{
+        margin: 40px 275px;
+        margin-bottom: 60px;
+    }
+    .footer-bg{
+        background-color: #01ACFD;
+        width: 800px;
+        height: 650px;
+    }
+
+    .small-cards-container{
+        width: 358px;
+        height: 561px;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .main-container {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 0;
+        width: 358px;
+        height: 561px;
+        margin-bottom: 80px;
+    }
+      .box-container{
+        place-items: center;
+      }   
 }
